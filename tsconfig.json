@@ -1,0 +1,17 @@
+{
+  "include": ["src", "@types"],
+  "exclude": ["src/__tests__"],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "CommonJS",
+    "lib": ["dom", "es6"],
+    "allowJs": false,
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
